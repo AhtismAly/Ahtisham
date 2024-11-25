@@ -18,10 +18,12 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1"
+            className="h1 text-4xl xl:text-5xl leading-tight"
           >
-            ABCDEFG <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            BRINGING IDEAS TO LIFE <br />{" "}
+            <span className="text-accent">
+              <span className="text-white">With</span> Engineering Excellence
+            </span>
           </motion.h1>
 
           {/* subtitle */}
@@ -30,12 +32,15 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 text-sm xl:text-base"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            A Civil Engineer with expertise in BIM, Structural Health Monitoring, 
+            soil investigation, and site inspections. Skilled in using advanced 
+            technologies to turn concepts into efficient, sustainable solutions. 
+            From creating detailed construction drawings to overseeing site inspections, 
+            I ensure every project phase is executed with precision and quality. 
+            Combining traditional engineering knowledge with digital innovation for 
+            safer, more sustainable infrastructure.
           </motion.p>
 
           {/* btn */}

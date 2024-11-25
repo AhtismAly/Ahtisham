@@ -7,37 +7,43 @@ import {
   RiDribbbleLine,
   RiGithubLine,
   RiPinterestLine,
+  RiLinkedinLine, // Import LinkedIn icon
 } from "react-icons/ri";
 
 export const socialData = [
   {
-    name: "YouTube",
-    link: "https://youtube.com",
-    Icon: RiYoutubeLine,
+    name: "LinkedIn", // LinkedIn first
+    link: "https://www.linkedin.com/in/ahtisham-ali-baig-b5769814a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Icon: RiLinkedinLine,
   },
   {
-    name: "Instagram",
-    link: "https://instagram.com",
+    name: "Instagram", // Instagram second
+    link: "https://www.instagram.com/alyahtism/profilecard/?igsh=NzdtZGlmZTF1cWx1",
     Icon: RiInstagramLine,
   },
   {
-    name: "Facebook",
-    link: "https://facebook.com",
-    Icon: RiFacebookLine,
+    name: "Website", // Your Website third
+    link: "https://ahtishamportfolio-tau.vercel.app/",
+    Icon: RiDribbbleLine, // Placeholder icon for Website (you can replace this)
   },
   {
-    name: "Dribbble",
-    link: "https://dribbble.com",
-    Icon: RiDribbbleLine,
-  },
-  {
-    name: "Pinterest",
-    link: "https://pinterest.com",
+    name: "Pinterest", // Pinterest fourth
+    link: "https://pin.it/6nEuMs5DB",
     Icon: RiPinterestLine,
   },
   {
-    name: "Github",
-    link: "https://github.com/sanidhyy/modern-portfolio",
+    name: "YouTube", // YouTube fifth
+    link: "https://youtube.com/@ahtism?si=HAtjDpx8jlp20Q7q",
+    Icon: RiYoutubeLine,
+  },
+  {
+    name: "Facebook", // Facebook sixth
+    link: "https://www.facebook.com/profile.php?id=61556592519414&mibextid=ZbWKwL",
+    Icon: RiFacebookLine,
+  },
+  {
+    name: "GitHub", // GitHub last
+    link: "https://github.com/AhtismAly", // Your GitHub account link
     Icon: RiGithubLine,
   },
 ];
@@ -53,7 +59,7 @@ const Socials = () => {
           target="_blank"
           rel="noreferrer noopener"
           className={`${
-            social.name === "Github"
+            social.name === "GitHub"
               ? "bg-accent rounded-full p-[5px] hover:text-white"
               : "hover:text-accent"
           } transition-all duration-300`}
