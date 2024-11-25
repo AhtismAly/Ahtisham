@@ -99,7 +99,7 @@ const About = () => {
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
       <Circles />
 
-      {/* avatar img */}
+      {/* Avatar */}
       <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
@@ -111,14 +111,14 @@ const About = () => {
       </motion.div>
 
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
-        {/* text */}
+        {/* Left Column */}
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
-            variants={fadeIn("right", 0.2)}
+            variants={fadeIn("right", 0.3)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2"
+            className="text-xl xl:text-2xl text-white"
           >
             Transforming <span className="text-accent">Visions</span> into
             magnificent designs.
@@ -129,67 +129,14 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            Over 4 years ago, I embarked on my journey as a Professional Civil Engineer.
-            Since then, I have worked on diverse projects, integrating Building 
-            Information Modeling (BIM), structural health monitoring, and soil 
-            investigation to create efficient and resilient designs. From consulting 
-            on infrastructure projects to collaborating on site inspections and 
-            construction drawings, I merge traditional engineering expertise with 
-            cutting-edge technologies to deliver solutions that stand the test of time.
+            Over 4 years ago, I began my journey as a Professional Civil
+            Engineer. Since then, I’ve worked on diverse projects, integrating
+            Building Information Modeling (BIM) and structural health monitoring
+            to create efficient and resilient designs.
           </motion.p>
-
-          {/* counters */}
-          <motion.div
-            variants={fadeIn("right", 0.6)}
-            initial="hidden"
-            animate="show"
-            className="hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8"
-          >
-            <div className="flex flex-1 xl:gap-x-6">
-              {/* experience */}
-              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={4} duration={5} />
-                </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Years of experience.
-                </div>
-              </div>
-
-              {/* clients */}
-              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={120} duration={5} />
-                </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Satisfied clients.
-                </div>
-              </div>
-
-              {/* projects */}
-              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={108} duration={5} />
-                </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Finished projects.
-                </div>
-              </div>
-
-              {/* awards */}
-              <div className="relative flex-1">
-                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={8} duration={5} />
-                </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Winning awards.
-                </div>
-              </div>
-            </div>
-          </motion.div>
         </div>
 
-        {/* info */}
+        {/* Info Section */}
         <motion.div
           variants={fadeIn("left", 0.4)}
           initial="hidden"
@@ -218,13 +165,10 @@ const About = () => {
                 key={itemI}
                 className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-center text-white/60"
               >
-                {/* title */}
                 <div className="font-light mb-2 md:mb-0">{item.title}</div>
                 <div className="hidden md:flex">-</div>
                 <div>{item.stage}</div>
-
                 <div className="flex gap-x-4">
-                  {/* icons */}
                   {item.icons?.map((Icon, iconI) => (
                     <div key={iconI} className="text-2xl text-white">
                       <Icon />
