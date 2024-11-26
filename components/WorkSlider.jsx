@@ -13,14 +13,14 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
+          title: "The Effect of Dry Density on Shear Strength Parameters",
           path: "/thumb1.jpg",
-          link: "http://example.com",
+          link: "https://drive.google.com/file/d/1gOjAtik_4wPmRDvLSeRhqTnfgI_HHsq5/view?usp=drive_link",
         },
         {
-          title: "title",
+          title: "First Aid for Scouts",
           path: "/thumb2.jpg",
-          link: "http://example.com",
+          link: "https://drive.google.com/file/d/18bztQp2VaWik_PbxDQ7WX6_kcvRzB_fv/view?usp=drive_link",
         },
         {
           title: "title",
