@@ -18,7 +18,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 text-4xl xl:text-5xl leading-tight"
+            className="h1 text-2xl xl:text-3xl leading-tight"
           >
             BRINGING IDEAS TO LIFE <br />{" "}
             <span className="text-accent">
@@ -32,7 +32,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 text-sm xl:text-base"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 text-xs xl:text-sm"
           >
             A Civil Engineer with expertise in BIM, Structural Health Monitoring, 
             soil investigation, and site inspections. Skilled in using advanced 
