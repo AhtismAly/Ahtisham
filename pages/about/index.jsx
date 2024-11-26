@@ -34,48 +34,37 @@ export const aboutData = [
     title: "awards",
     info: [
       {
-        title: "Smart Solutions for Underground Constructions",
-        stage: "Maccaferri - 2024",
+        title: "Smart Solutions for Underground Constructions - Maccaferri - 2024",
       },
       {
-        title: "Exposing Hidden Dangers of Intersections",
-        stage: "RDV Systems - 2023",
+        title: "Exposing Hidden Dangers of Intersections - RDV Systems - 2023",
       },
       {
-        title: "Green Investments: Renewable Energy",
-        stage: "ADB - 2023",
+        title: "Green Investments: Renewable Energy - ADB - 2023",
       },
       {
-        title: "Sustainable Goals on Water and Sanitation",
-        stage: "ADB - 2023",
+        title: "Sustainable Goals on Water and Sanitation - ADB - 2023",
       },
       {
-        title: "Designing Soil Nailing Applications",
-        stage: "Maccaferri - 2023",
+        title: "Designing Soil Nailing Applications - Maccaferri - 2023",
       },
       {
-        title: "Advance Clean Energy Summit",
-        stage: "ASME - 2023",
+        title: "Advance Clean Energy Summit - ASME - 2023",
       },
       {
-        title: "Health, Safety & Environment Management",
-        stage: "PEC - 2023",
+        title: "Health, Safety & Environment Management - PEC - 2023",
       },
       {
-        title: "Advanced Numerical Techniques (FLAC)",
-        stage: "PEC - 2022",
+        title: "Advanced Numerical Techniques (FLAC) - PEC - 2022",
       },
       {
-        title: "Construction Safety and Challenges",
-        stage: "PEC - 2022",
+        title: "Construction Safety and Challenges - PEC - 2022",
       },
       {
-        title: "AutoCAD Course",
-        stage: "Virtual University - 2022",
+        title: "AutoCAD Course - Virtual University - 2022",
       },
       {
-        title: "ETABS",
-        stage: "Lahore Leads University - 2018",
+        title: "ETABS - Lahore Leads University - 2018",
       },
     ],
   },
@@ -186,11 +175,11 @@ const About = () => {
             ))}
           </div>
 
-          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-start xl:items-start">
+          <div className="py-1 xl:py-2 flex flex-col gap-y-1 xl:gap-y-2 items-start xl:items-start">
             {aboutData[index].info.map((item, itemI) => (
               <div
                 key={itemI}
-                className="flex-1 flex flex-col gap-y-2 text-left text-white/60"
+                className="flex-1 flex flex-col gap-y-1 text-left text-white/60"
               >
                 <div className="font-light">{item.title}</div>
                 <div>
