@@ -47,12 +47,40 @@ export const aboutData = [
     title: "awards",
     info: [
       {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
+        title: "Smart Solutions for Underground Constructions",
+        stage: "Maccaferri - 2024",
       },
       {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        title: "Exposing Hidden Dangers of Intersections",
+        stage: "RDV Systems - 2023",
+      },
+      {
+        title: "Green Investments: Renewable Energy",
+        stage: "ADB - 2023",
+      },
+      {
+        title: "Sustainable Goals on Water and Sanitation",
+        stage: "ADB - 2023",
+      },
+      {
+        title: "Designing Soil Nailing Applications",
+        stage: "Maccaferri - 2023",
+      },
+      {
+        title: "Advance Clean Energy Summit",
+        stage: "ASME - 2023",
+      },
+      {
+        title: "Health, Safety & Environment Management",
+        stage: "PEC - 2023",
+      },
+      {
+        title: "Advanced Numerical Techniques (FLAC)",
+        stage: "PEC - 2022",
+      },
+      {
+        title: "Construction Safety and Challenges",
+        stage: "PEC - 2022",
       },
     ],
   },
@@ -168,13 +196,6 @@ const About = () => {
                 <div className="font-light mb-2 md:mb-0">{item.title}</div>
                 <div className="hidden md:flex">-</div>
                 <div>{item.stage}</div>
-                <div className="flex gap-x-4">
-                  {item.icons?.map((Icon, iconI) => (
-                    <div key={iconI} className="text-2xl text-white">
-                      <Icon />
-                    </div>
-                  ))}
-                </div>
               </div>
             ))}
           </div>
