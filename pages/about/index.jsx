@@ -40,11 +40,7 @@ export const aboutData = [
       },
       {
         title: "Civil Engineering Software",
-        icons: [
-          FaFigma, 
-          SiAdobexd, 
-          SiAdobephotoshop
-        ],
+        icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
       },
     ],
   },
@@ -187,7 +183,7 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="flex flex-col w-full xl:max-w-[48%] h-[480px] xl:items-end"
+          className="flex flex-col w-full xl:max-w-[48%] h-[480px] xl:items-start"
         >
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, itemI) => (
@@ -204,11 +200,11 @@ const About = () => {
             ))}
           </div>
 
-          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-end xl:items-end">
+          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-start xl:items-start">
             {aboutData[index].info.map((item, itemI) => (
               <div
                 key={itemI}
-                className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-right text-white/60"
+                className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-left text-white/60"
               >
                 <div className="font-light mb-2 md:mb-0">{item.title}</div>
                 <div className="hidden md:flex">-</div>
