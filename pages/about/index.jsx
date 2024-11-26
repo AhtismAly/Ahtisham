@@ -1,21 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import CountUp from "react-countup";
-import {
-  FaAcquisitionsIncorporated,
-  FaCss3,
-  FaFigma,
-  FaHtml5,
-  FaJs,
-  FaReact,
-  FaWordpress,
-} from "react-icons/fa";
-import {
-  SiAdobephotoshop,
-  SiAdobexd,
-  SiFramer,
-  SiNextdotjs,
-} from "react-icons/si";
 
 import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
@@ -27,20 +12,21 @@ export const aboutData = [
     title: "skills",
     info: [
       {
-        title: "Engineering Technologies",
-        icons: [
-          FaAcquisitionsIncorporated,
-          FaCss3,
-          FaJs,
-          FaReact,
-          SiNextdotjs,
-          SiFramer,
-          FaWordpress,
+        title: "Engineering Technologies & Software",
+        list: [
+          "BIM Collab",
+          "Solibri (for IFC models and clash detection)",
+          "Blender (reading IFC models)",
+          "AutoCAD & Revit (for modeling)",
+          "SAP & ETABS (for structural analysis",
+          "Microsoft Project & Primavera P6",
+          "C++ & Python (for scripting and analysis)",
+          "ArcGIS (for geospatial analysis)",
         ],
       },
       {
         title: "Civil Engineering Software",
-        icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
+        list: ["A", "B", "C"],
       },
     ],
   },
@@ -170,7 +156,7 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            Over 4 years ago, I began my journey as a Professional Civil
+            Over 6 years ago, I began my journey as a Professional Civil
             Engineer. Since then, I’ve worked on diverse projects, integrating
             Building Information Modeling (BIM) and structural health monitoring
             to create efficient and resilient designs.
@@ -204,11 +190,18 @@ const About = () => {
             {aboutData[index].info.map((item, itemI) => (
               <div
                 key={itemI}
-                className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-left text-white/60"
+                className="flex-1 flex flex-col gap-y-2 text-left text-white/60"
               >
-                <div className="font-light mb-2 md:mb-0">{item.title}</div>
-                <div className="hidden md:flex">-</div>
-                <div>{item.stage}</div>
+                <div className="font-light">{item.title}</div>
+                <div>
+                  {item.list
+                    ? item.list.map((listItem, listI) => (
+                        <div key={listI} className="ml-4">
+                          - {listItem}
+                        </div>
+                      ))
+                    : item.stage}
+                </div>
               </div>
             ))}
           </div>
