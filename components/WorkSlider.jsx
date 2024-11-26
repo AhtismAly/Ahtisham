@@ -23,38 +23,28 @@ const workSlides = {
           link: "https://drive.google.com/file/d/18bztQp2VaWik_PbxDQ7WX6_kcvRzB_fv/view?usp=drive_link",
         },
         {
-          title: "title",
+          title: "Project 5",
+          path: "/thumb2.jpg",
+          link: "http://example.com/project5",
+        },
+        {
+          title: "Project 6",
           path: "/thumb3.jpg",
-          link: "http://example.com",
-        },
-        {
-          title: "title",
-          path: "/thumb4.jpg",
-          link: "http://example.com",
-        },
-        {
-          title: "title",
-          path: "/thumb5.jpg",
-          link: "http://example.com",
-        },
-        {
-          title: "title",
-          path: "/thumb6.jpg",
-          link: "http://example.com",
+          link: "http://example.com/project6",
         },
       ],
     },
     {
       images: [
         {
-          title: "title",
-          path: "/thumb4.jpg",
-          link: "http://example.com",
+          title: "Project 7",
+          path: "/thumb2.jpg",
+          link: "http://example.com/project7",
         },
         {
-          title: "title",
-          path: "/thumb1.jpg",
-          link: "http://example.com",
+          title: "Project 8",
+          path: "/thumb3.jpg",
+          link: "http://example.com/project8",
         },
         {
           title: "title",
