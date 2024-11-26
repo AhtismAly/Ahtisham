@@ -8,7 +8,7 @@ const Avatar = () => {
         alt="avatar"
         width={737}
         height={678}
-        className="translate-z-0 w-full h-full"
+        className="translate-z-0 w-full h-full scale-70" // Shrinks the avatar by 30%
       />
     </div>
   );
