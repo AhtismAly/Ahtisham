@@ -32,6 +32,16 @@ const workSlides = {
           path: "/thumb4.jpg",
           link: "http://example.com",
         },
+        {
+          title: "title",
+          path: "/thumb5.jpg",
+          link: "http://example.com",
+        },
+        {
+          title: "title",
+          path: "/thumb6.jpg",
+          link: "http://example.com",
+        },
       ],
     },
     {
