@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import CountUp from "react-countup";
 import {
+  FaAcquisitionsIncorporated,
   FaCss3,
   FaFigma,
   FaHtml5,
@@ -28,7 +29,7 @@ export const aboutData = [
       {
         title: "Engineering Technologies",
         icons: [
-          FaHtml5,
+          FaAcquisitionsIncorporated,
           FaCss3,
           FaJs,
           FaReact,
@@ -38,8 +39,12 @@ export const aboutData = [
         ],
       },
       {
-        title: "UI/UX Design",
-        icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
+        title: "Civil Engineering Software",
+        icons: [
+          FaFigma, 
+          SiAdobexd, 
+          SiAdobephotoshop
+        ],
       },
     ],
   },
@@ -82,22 +87,30 @@ export const aboutData = [
         title: "Construction Safety and Challenges",
         stage: "PEC - 2022",
       },
+      {
+        title: "AutoCAD Course",
+        stage: "Virtual University - 2022",
+      },
+      {
+        title: "ETABS",
+        stage: "Lahore Leads University - 2018",
+      },
     ],
   },
   {
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Site Engineer - Infinity Building Constructing LLC",
+        stage: "2023 – 2024",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
+        title: "Site Engineer Cum Estimator - Nvision A&EC",
+        stage: "2021 – 2023",
       },
       {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Site Civil Engineer - Thaheem (PVT) LTD",
+        stage: "2018 – 2021",
       },
     ],
   },
@@ -105,16 +118,20 @@ export const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Master’s in Building Information Modelling A+ - University of Minho",
+        stage: "2025",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
+        title: "Bachelor's in Civil Engineering - Lahore Leads University",
+        stage: "2021",
       },
       {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "HSSC Pre-Engineering – Grafton College",
+        stage: "2016",
+      },
+      {
+        title: "SSC – Army Public School and College System Jutial Gilgit",
+        stage: "2013",
       },
     ],
   },
@@ -170,7 +187,7 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="flex flex-col w-full xl:max-w-[48%] h-[480px]"
+          className="flex flex-col w-full xl:max-w-[48%] h-[480px] xl:items-end"
         >
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, itemI) => (
@@ -187,11 +204,11 @@ const About = () => {
             ))}
           </div>
 
-          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
+          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-end xl:items-end">
             {aboutData[index].info.map((item, itemI) => (
               <div
                 key={itemI}
-                className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-center text-white/60"
+                className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-right text-white/60"
               >
                 <div className="font-light mb-2 md:mb-0">{item.title}</div>
                 <div className="hidden md:flex">-</div>
