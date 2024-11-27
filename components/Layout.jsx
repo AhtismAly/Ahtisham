@@ -22,11 +22,11 @@ const Layout = ({ children }) => {
         <title>Ahtisham Ali Baig  | Portfolio</title>
         <meta
           name="description"
-          content="Ahtisham Ali Baig is a Full-stack web developer with 10+ years of experience."
+          content="Ahtisham Ali Baig is Civil BIM Engineer with 6+ years of experience."
         />
         <meta
           name="keywords"
-          content="react, next, nextjs, html, css, javascript, js, modern-ui, modern-ux, portfolio, framer-motion, 3d-website, particle-effect"
+          content="BIM Collab, Solibri , IFC models, clash detection, Bbender, AutoCAD, revit, SAP, ETABS, structural analysis, primavera p6, microsoft project, python, C++, ArcGIS, GIS, Rhino, dynamo"
         />
         <meta name="author" content="Sanidhya Kumar Verma" />
         <meta name="theme-color" content="#f13024" />
