@@ -15,29 +15,34 @@ import "swiper/css/pagination";
 
 const serviceData = [
   {
+    Icon: RxDesktop,
+    title: "BIM Integration",
+    description: "Utilizing Building Information Modeling (BIM) for precise and efficient quantity extraction.",
+  },
+  {
     Icon: RxCrop,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Parametric Models",
+    description: "Offering innovative parametric design solutions that merge creativity with computational precision for unique architectural and structural projects.",
   },
   {
     Icon: RxPencil2,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Quantity Estimation",
+    description: "Providing quantity estimation services aligned with the IFC schema for standardized and precise construction data management.",
   },
   {
     Icon: RxDesktop,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Standard Compliance",
+    description: "Adherence to industry standards, including IFC schema and ISO-certified processes.",
   },
   {
     Icon: RxReader,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Inter Disciplinary Coordination",
+    description: "Collaborating across disciplines with clash detection to resolve conflicts and ensure seamless integration.",
   },
   {
     Icon: RxRocket,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Lifecycle Analysis",
+    description: "Assessing quantities across different phases of the project lifecycle for optimized resource management.",
   },
 ];
 
