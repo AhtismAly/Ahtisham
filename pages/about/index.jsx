@@ -89,7 +89,7 @@ export const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Master’s in Building Information Modelling A+ - University of Minho",
+        title: "Master’s in Building Information Modelling A+ - University of Minho & University of Ljubljana",
         stage: "2025",
       },
       {
