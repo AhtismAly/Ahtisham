@@ -26,7 +26,7 @@ export const aboutData = [
       },
       {
         title: "Civil Engineering Software",
-        list: ["A", "B", "C"],
+        list: ["Solibri (for IFC models and clash detection)", "Revit (for modeling)", "Dynam", "Rhino & Grasshopper"],
       },
     ],
   },
