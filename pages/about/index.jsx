@@ -14,6 +14,8 @@ export const aboutData = [
       {
         title: "Engineering Technologies & Software",
         list: [
+          "Artificial Intelligence (AI)",
+          "Construction Software Development",
           "AutoCAD & Revit (for modeling)",
           "SAP & ETABS (for structural analysis)",
           "Microsoft Project & Primavera P6",
@@ -72,6 +74,10 @@ export const aboutData = [
     title: "experience",
     info: [
       {
+        title: "BIM specialist - Kolektor Koling d.o.o",
+        stage: "2025 – Current",
+      },
+      {
         title: "Site Engineer - Infinity Building Constructing LLC",
         stage: "2023 – 2024",
       },
@@ -89,8 +95,12 @@ export const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Master’s in Building Information Modelling A+ - University of Minho & University of Ljubljana",
+        title: "Master’s in Building Information Modelling A+ - University of Ljubljana",
         stage: "2025",
+      },
+      {
+        title: "Master’s in Building Information Modelling A+ - University of Minho",
+        stage: "2024",
       },
       {
         title: "Bachelor's in Civil Engineering - Lahore Leads University",
@@ -145,10 +155,15 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            Over 6 years ago, I began my journey as a Professional Civil
-            Engineer. Since then, I’ve worked on diverse projects, integrating
-            Building Information Modeling (BIM) and structural health monitoring
-            to create efficient and resilient designs.
+            Over 6 years ago, I started my career as a Civil Engineer. Since 
+            then, I've evolved into a Civil BIM Engineer and BIM Specialist, 
+            developing custom programming solutions with artificial intelligence 
+            integration for diverse infrastructure projects. I create AI-powered 
+            automated workflows and tools that integrate Building Information 
+            Modeling (BIM) platforms across MEP systems, civil structures, and 
+            architectural elements, while implementing intelligent preventive 
+            maintenance automation technologies to deliver efficient and resilient 
+            digital engineering solutions.        
           </motion.p>
         </div>
 

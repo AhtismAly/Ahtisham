@@ -34,13 +34,14 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 text-xs xl:text-sm"
           >
-            A Civil Engineer with expertise in BIM, Structural Health Monitoring, 
-            soil investigation, and site inspections. Skilled in using advanced 
-            technologies to turn concepts into efficient, sustainable solutions. 
-            From creating detailed construction drawings to overseeing site inspections, 
-            I ensure every project phase is executed with precision and quality. 
-            Combining traditional engineering knowledge with digital innovation for 
-            safer, more sustainable infrastructure.
+            A Civil BIM Engineer with expertise in AI-powered construction automation, 
+            digital twin engineering, and intelligent monitoring systems. Skilled in 
+            using machine learning and advanced technologies to turn concepts into 
+            efficient, automated solutions. From creating intelligent BIM workflows 
+            to implementing predictive analytics, I ensure every project phase 
+            leverages AI-driven precision and quality control. Combining traditional 
+            engineering knowledge with artificial intelligence innovation for smarter,
+            more sustainable infrastructure.
           </motion.p>
 
           {/* btn */}

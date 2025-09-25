@@ -29,8 +29,9 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Dedicated to designing and constructing safe, 
-              sustainable, and efficient infrastructure solutions.
+              Dedicated to designing and constructing intelligent, 
+              AI-powered infrastructure solutions that are safe, 
+              sustainable, and efficiently automated.              
             </motion.p>
           </div>
 

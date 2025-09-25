@@ -31,8 +31,16 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              As a Construction AI Engineer specializing in AI-Powered BIM, 
+              Construction Automation, and Digital Twin Engineering, I develop 
+              intelligent solutions that transform construction workflows through
+              machine learning, predictive analytics, and automated systems. My 
+              expertise as a Construction Tech Specialist (AI/ML) and Data Science 
+              Engineer enables me to create custom algorithms, digital twins, and 
+              smart BIM platforms that optimize project outcomes, predict risks, 
+              and automate quality control throughout the construction lifecycle, 
+              delivering enhanced productivity and real-time project insights from 
+              concept to completion.              
             </motion.p>
           </div>
 
