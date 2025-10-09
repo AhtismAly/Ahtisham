@@ -32,6 +32,10 @@ const workSlides = {
           path: "/thumb4.jpg",
           link: "https://1drv.ms/f/c/c140ce58107a3489/EqcGoC6qrgNKh1z5pF2kvvMBOgWcAdfBnGuDyFdpDIiDag?e=HjClb2",
         },
+        ],
+    },
+    {
+      images: [
         {
           title: "Blender COBie Report Generator Plugin",
           path: "/thumb5.jpg",
@@ -46,30 +50,6 @@ const workSlides = {
           title: "First Aid for Scouts",
           path: "/thumb7.jpg",
           link: "https://drive.google.com/file/d/18bztQp2VaWik_PbxDQ7WX6_kcvRzB_fv/view?usp=drive_link",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "Project 7",
-          path: "/thumb2.jpg",
-          link: "http://example.com/project7",
-        },
-        {
-          title: "Project 8",
-          path: "/thumb3.jpg",
-          link: "http://example.com/project8",
-        },
-        {
-          title: "title",
-          path: "/thumb2.jpg",
-          link: "http://example.com",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
-          link: "http://example.com",
         },
       ],
     },
