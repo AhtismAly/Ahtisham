@@ -15,15 +15,16 @@ const workSlides = {
         {
           title: "IFC Document Manager",
           path: "/thumb1.jpg",
-          link: "https://papers.ssrn.com/sol3/papershttps://ahtisham-eosin.vercel.app/work.cfm?abstract_id=4644744",
-        },{
+          link: "https://1drv.ms/f/c/c140ce58107a3489/Egi6uoF7WPdPkL9N0XQhkekBGAgQ2rPVMDHc9yB1r3aPbw?e=ORLIxV",
+        },
+        {
           title: "The Effect of Dry Density on Shear Strength Parameters",
-          path: "/thumb1.jpg",
+          path: "/thumb6.jpg",
           link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4644744",
         },
         {
           title: "First Aid for Scouts",
-          path: "/thumb6.jpg",
+          path: "/thumb2.jpg",
           link: "https://drive.google.com/file/d/18bztQp2VaWik_PbxDQ7WX6_kcvRzB_fv/view?usp=drive_link",
         },
         {
