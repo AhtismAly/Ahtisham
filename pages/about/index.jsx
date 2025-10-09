@@ -144,7 +144,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="text-xl xl:text-2xl text-white font-bold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] bg-gradient-to-r from-primary/80 via-primary/60 to-transparent px-4 py-2 rounded-lg"
+            className="text-xl xl:text-2xl text-white font-bold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] bg-gradient-to-r from-primary/10 via-primary/5 to-transparent px-4 py-2 rounded-lg"
           >
             Transforming <span className="text-accent">Visions</span> into
             magnificent designs.
@@ -153,7 +153,7 @@ const About = () => {
             variants={fadeIn("right", 0.4)}
             initial="hidden"
             animate="show"
-            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-4 xl:px-4 py-3 text-white font-medium drop-shadow-[0_2px_6px_rgba(0,0,0,0.9)] bg-primary/70 backdrop-blur-sm rounded-lg leading-relaxed"
+            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-4 xl:px-4 py-3 text-white font-medium drop-shadow-[0_2px_6px_rgba(0,0,0,0.9)] bg-primary/10 backdrop-blur-sm rounded-lg leading-relaxed"
           >
             Over 6 years ago, I started my career as a Civil Engineer. Since 
             then, I've evolved into a Civil BIM Engineer and BIM Specialist, 
