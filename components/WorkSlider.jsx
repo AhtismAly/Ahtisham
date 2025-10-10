@@ -42,7 +42,7 @@ const workSlides = {
           link: "https://1drv.ms/f/c/c140ce58107a3489/EmJ38L8JV_JEnQuoD8ltp04BSJ37zGpBUhw1DXLMdppmjg?e=5z5hVZ",
         },
         {
-          title: "IFC GUD Correction",
+          title: "IFC GUIDs Mapper & Restorer",
           path: "/thumb6.jpg",
           link: "https://1drv.ms/f/c/c140ce58107a3489/EmrcZDQAqLxBgpejCEkIxSgBAz5Hk8BcHjylSWMl_CkhYg?e=ChymJn",
         },
