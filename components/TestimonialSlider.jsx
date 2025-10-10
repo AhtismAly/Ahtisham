@@ -17,10 +17,10 @@ const testimonialData = [
   },
   {
     image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    name: "Afnan Baig",
+    position: "Full Stack Developer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "I had the pleasure of working with Mr. Ahtisham on software development projects. As a Civil BIM and AI Engineer, he showed strong technical expertise, analytical thinking, and innovative problem-solving skills. His ability to connect engineering knowledge with data and AI brought great value to our work.",
   },
   {
     image: "/t-avt-3.png",
