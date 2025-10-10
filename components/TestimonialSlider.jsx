@@ -19,6 +19,7 @@ const testimonialData = [
     image: "/t-avt-2.png",
     name: "Afnan Baig",
     position: "Full Stack Developer",
+    Location: "Germany",
     message:
       "I had the pleasure of working with Mr. Ahtisham on software development projects. As a Civil BIM and AI Engineer, he showed strong technical expertise, analytical thinking, and innovative problem-solving skills. His ability to connect engineering knowledge with data and AI brought great value to our work.",
   },
